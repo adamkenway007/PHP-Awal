@@ -1,0 +1,67 @@
+<!-- 
+    Property =
+    - Merepresentasikan data / keadaan dari sebuah object & Method
+    - Variabel yang ada di dalam object(member variable)
+    - Sama seperti variabel di dalam PHP, ditambah dengan 'visibility' di 
+      depannya
+       Ex.
+        1. Public
+        2. Private
+        3. Protected
+
+    Method
+    - Merepresentasikann perilaku dari sebuah object
+    - Function yang ada di dalam object
+    - Sama seperti variabel di dalam PHP, ditambah dengan 'visibility' di 
+      depannya
+      Ex.
+        1. Public
+        2. Private
+        3. Protected
+
+
+  Ilustrasi Property & Method
+  + Mobil
+     Property
+     - nama
+     - merk
+     - warna
+     - kecepatanMaksimal
+     - jumlahPenumpang
+
+    Method
+     - tambahKecepatan
+     - kurangiKecepatan
+     - gantiTransmisi
+     - belokKiri
+     - belokKanan
+-->
+<?php
+
+class Mobil {
+  public $nama,
+  public $merk,
+  public $warna,
+  public $kecepatanMaksimal,
+  public $jumlahPenumpang;
+
+  public function tambahKecepatan() {
+
+  }
+
+  public function kurangiKecepatan() {
+
+  }
+
+  public function gantiTransmisi() {
+
+  }
+
+  public function belokKiri() {
+
+  }
+
+  public function belokKiri() {
+
+  }
+}

@@ -1,0 +1,56 @@
+<!-- Interface =
+	 - Kelas Abstrak yang sama sekali tidak memiliki impelentasi
+	 - Murni merupakan template untuk kelas turunannya
+	 - Tidak boleh memiliki property, hanya deklarasi method saja
+	 - Semua method harus dideklarasikan dengan visibility public
+	 - Boleh mendeklarasikan __constuct() dalam interface
+	 - Satu kelas boleh mengimplementasikan banyak interface
+
+	Interface (2)
+	 - Dengan menggunakan type-hinting dapat melakukan 'Dependency
+	   Injection'
+	 - Pad akhirnya akan mencapai Polymorphism
+	 - Penggunaan Interface bukan masalah benar atau salah namun lebih ke
+	   dalam perancangan design saja
+-->
+<?php
+interface Buah {
+	public function makan();
+	public function setWarna($warna);
+}
+
+interface Benda {
+	public function setUkuran($ukuran);
+}
+
+class Apel implements Buah, Benda {
+	protected $warna;
+	protected $ukuran;
+	public function makan() {
+		// kunyah
+		// sampai bagian tengah
+	}
+	public function setWarna($warna) {
+		$this->warna = $warna;
+	}
+	public function setUkuran($ukuran) {
+		$this->ukuranl = $ukuran;
+	}
+}
+
+class Jeruk implements Buah {
+	protected $warna;
+	public function makan() {
+		// kupas
+		// kunyah
+	}
+	public function setWarna($warna) {
+		$this->warna = $warna;
+	}
+}
+
+$apel = new Apel();
+$apel->makan();
+
+$buah = new Buah();
+$buah->makan();

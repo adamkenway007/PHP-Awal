@@ -1,0 +1,5 @@
+<!-- Autoloading =
+	- Memanggil class (file) tanpa harus menggunakan require
+	 spl_autoload_register();
+	 - spl = standard php library
+-->

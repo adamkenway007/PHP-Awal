@@ -1,0 +1,8 @@
+<!-- Namespace / Encapsulation =
+	sebuah cara untuk mengelompokkan program ke dalam sebuah package tersendiri
+	Kegunaan Namespace
+	- PHP tidak mengijinkan kita untuk memiliki 2 class dengan nama yang 
+	  sama (maka boleh dilakukan teknik ini)
+	- bagaimana jika kita menggunakan script / library dari pihak ke-tiga
+	  (dan mengkawathirkan nama class sama )
+-->

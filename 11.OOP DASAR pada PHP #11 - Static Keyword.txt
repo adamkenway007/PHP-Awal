@@ -1,0 +1,6 @@
+<!-- Static Keyword = menampilkan data static / tetap meski diubah
+	Pengunaan Static Keyword
+	  1. Member yang terikat dengan class, bukan dengan object 
+	  2. Nilai static akan selalu tetap meski object di-instansiasi berulang kali
+
+-->

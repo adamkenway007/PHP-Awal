@@ -1,0 +1,5 @@
+<!-- Overiding = membuat method di class child yang memiliki class yang sama di parent
+	Ex.
+		parent::<nama_function>()
+
+-->

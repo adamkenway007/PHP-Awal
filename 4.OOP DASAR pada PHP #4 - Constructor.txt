@@ -1,0 +1,2 @@
+<!-- Constructor = sebuah method yang special / khusus ada di dalam class  
+-->

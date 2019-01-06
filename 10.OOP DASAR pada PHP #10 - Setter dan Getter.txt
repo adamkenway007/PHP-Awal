@@ -1,0 +1,35 @@
+<!-- Setter dan Getter =
+	untuk men set & men get  property dan method pada sebuah object visibility
+
+	Bisa Menggunakan magic method 1. __set() 
+		             			  2. __get()
+-->
+<?php
+class Produk {
+	private$judul,
+	       $pemainUtama, 
+	       $penerbit;
+	protected
+	       $diskon = 0;
+
+	private
+	       $harga;
+
+	public function __construct( $judul = "judul", $pemainUtama = "pemainUtama", $penerbit = "penerbit", $harga = 0 ) {
+		$this->judul       = $judul;
+		$this->pemainUtama = $pemainUtama;
+		$this->penerbit    = $penerbit;
+		$this->harga       = $harga;
+
+	}
+
+	public function setJudul( $judul ) {
+		if( !is_string($judul)) {
+		throw new Exception("judul harus string");
+	 }
+		$this->judul = $judul;
+	}
+
+	public function getJudul() {
+		return $this->judul;
+	}

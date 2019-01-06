@@ -1,0 +1,6 @@
+<!-- Object Type 
+   Tipe data pada PHP
+	Tipe data primitif = integer, string,boolean
+	Tipe data bentukann = array
+  
+-->

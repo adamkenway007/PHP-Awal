@@ -1,0 +1,36 @@
+<!-- 
+Class = Template / Blueprint untuk membuat instance dari sebuah Object
+        - Blueprint / Template untuk membuat instance dari sebuah Object
+        - Class mendefinisikan Object
+        - Menyimpan data dan perilaku yang disebut dengan property dan method
+        - Aturan penamaan class sama seperti variable
+      Cara Membuat Class
+      Ex.
+       <?php 
+            class Coba {
+                public $a; // property
+
+                // method
+                public function b() {
+    
+                }
+            }
+       ?>
+       - Di awali dengan menuliskan class, diikuti nama dan dibatasi dengan {} untuk menyimpan property dan method
+Object = Implementasi dari rancangan class
+         - Instance yang didefinisikan oleh Class
+         - Banyak Object dapat digunakan menggunakan satu class
+         - Object dibuat dengan menggunakan keyword new
+      Cara Membuat Object
+      Ex.
+       <?php 
+            class Coba {
+
+                // membuat object instance dari class
+                $a = new Coba();
+                $b = new Coba();
+    
+                }
+            }
+       ?>
+ -->

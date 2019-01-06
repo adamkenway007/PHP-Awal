@@ -1,0 +1,56 @@
+<!-- Abstract class =
+	 - Sebuah kelas yang tidak dapat di-instansiasi
+	 - Kelas 'abstrak'
+	 - Mendefinisikan interface untuk kelas lain yang menjadi turunannya
+	 - Berperan sebagai 'kerangka dasar' untuk kelas turunannya
+	 - Memiliki minimal 1 method abstrak
+	 - Digunakan dalam 'pewarisan' / inheritance untuk 'memaksakan' 
+	   implementasi method abstrak yang sama untuk kelas turunannya
+	 - Semua kelas turunan, harus mengimplementasikan method abstrak
+	   yang ada di kelas abstraknya
+	 - Kelas abstrak boleh memiliki property / method reguler
+	 - Kelas abstrak boleh memiliki property / static method
+
+	Contoh kelas Abstrak
+	  - class Mobil Extends Kendaraan
+	  - class Laptop Extends Komputer
+	  - class Email Extends Komunikasi
+      - ...
+
+	Kenapa menggunakan kelas abstrak>
+	  - Merepresentasikan ide atau konsep dasar
+	  - "Composition over inheritance"
+	  - Salah satu cara menerapkan Polimorphism
+	  - Sentralisasi logic
+	  - Mempermudah pengerjaan tim
+-->
+<?php
+abstract class Buah {
+	private $warna;
+
+	abstract public function makan();
+
+	public function setWarna($warna) {
+		$this->warna = $warna;
+	}
+}
+
+class Apel extends Buah {
+	public function makan() {
+		// kunyah
+		// sampai bagian tengah
+	}
+}
+
+class Jeruk extends Buah {
+	public function makan() {
+		// kupas
+		// kunyah
+	}
+}
+
+$apel = new Apel();
+$apel->makan();
+
+$buah = new Buah();
+$buah->makan();

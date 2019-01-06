@@ -1,0 +1,17 @@
+<!-- Visibility (Access Modifier) =
+	- Konsep yang digunakan untuk mengatur akses dari
+	  property dan method pada sebuah object
+	- Ada 3 keyword visibility
+		1. public = dapat digunakan di mana saja, bahkan di luar kelas
+		2. protected = hanya dapat digunakan di dalam sebuah kelas beserta
+		               turunannya
+		3. private = hanya dapat digunakan di dalam sebuah kelas tertentu 
+		             saja
+    Alasan Menerapkan Visibility
+     - Hanya memperlihatkan aspek dari class yang dibutuhkan oleh 'client'
+     - Menentukan kebutuhan yang jelas untuk object
+     - Memberikan kendali pada koce untuk menghindari 'bug'
+     - Membuat kod menjadi 'procedural'
+     - Biasanya digunakan untuk membuat fungsi bantuan / helper
+     - Atau digunakan di class-class utility pada Framework
+-->

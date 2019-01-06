@@ -1,0 +1,55 @@
+<!-- Gaya Pemograman / Cara menulis kode program
+    1. Object Oriented Programming 
+        Karakteristik Object Oriented Programming
+         - Menyusun semua kode program dan struktur data sebagai object
+         - Object adalah unit dasar dari program
+         - Object menyimpan data dan perilaku (seolah" cenderung seperti tidak punya variable dan function)
+         - Object bisa saling berinteraksi
+         - Java,Ruby,Python,C++,Javascript,PHP5
+
+        Kelebihan Object Oriented Programming
+         - Representasi dunia nyata
+         - Enkapsulasi & Abstraksi Data
+         - Reusability
+         - Skalabilitas & Ekstensibilitas
+         - Kemudahan pengelolaan
+         - Kolaborasi
+         - Digunakan oleh framework
+
+     Konsep OOP pada PHP
+      - Basic
+        - Class & Object
+        - Property & Method
+        - Constructor
+        - Object Type
+        - Inheritance
+        - Visibility / Access Modifier
+        - Setter & Getter
+        - Static Method
+
+      - Advanced
+        - Abstract & Interface
+        - Interceptor
+        - Object Cloning
+        - Callback & Closures
+        - Namespaces & Autoloading
+
+    2. Paradigma Pemograman Ex, = Procedural Programming
+    	Karakteristik Procedural Programming
+    	 - Instruksi dilakukan langkah demi langkah
+    	 - Memecah program menjadi bagian-bagian kecil
+    	 - Disebut prosedur, subroutine atau function
+    	 - Linear / Top-to-Bottom
+    	 - Fortran, ALGOL, COBOL, Pascal, C, PHP, Javascript
+
+    	Kelebihan Procedural Programming
+    	 - To the point
+    	 - Simplicy & kemudahan implementasi
+    	   (untuk compiler & interpreter)
+    	 - Karena Linear = Mudah ditelusuri
+    	 - Membutuhkan lebih sedikit memory
+    	   (dibandingkan dengan OOP)
+
+
+
+-->
